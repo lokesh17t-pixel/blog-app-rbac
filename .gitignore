@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime
+pids
+*.pid
+*.seed
+
+# Coverage
+coverage
+.nyc_output
+
+# Build
+dist
+build
+
+# Uploads (optional - keep empty folder if needed)
+# uploads/*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
